@@ -1,5 +1,5 @@
-Bootstrapper
-============
+Bootscrap
+=========
 
 I'm *sure* something like this already exists, but I couln't find it quickly so I made (another?) one myself.
 
@@ -9,7 +9,7 @@ Usage
 -----
 
 ```javascript
-var bs = require('bootstrapper');
+var bs = require('bootscrap');
 
 bs.css()           // gets the CSS for the default, minified bootstrap.min.css
 bs.css('flatly')   // gets the CSS for the 'Flatly' Bootswatch theme

@@ -2,14 +2,14 @@ var fs   = require('fs'),
     path = require('path');
 
 function themeExists(theme) {
-  return (fs.existsSync || path.existsSync)(Bootstrapper.path(theme));
+  return (fs.existsSync || path.existsSync)(Bootscrap.path(theme));
 }
 
 function readFileForTheme(theme) {
-  return fs.readFileSync(Bootstrapper.path(theme), 'utf-8');
+  return fs.readFileSync(Bootscrap.path(theme), 'utf-8');
 }
 
-var Bootstrapper = {
+var Bootscrap = {
   path: function(theme) {
     return path.join(__dirname, 'resources', 'css', theme + '.css');
   },
@@ -25,4 +25,4 @@ var Bootstrapper = {
   }
 };
 
-module.exports = Bootstrapper;
+module.exports = Bootscrap;
