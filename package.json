@@ -1,5 +1,6 @@
 {
   "name": "bootstrapper",
+  "description": "Programmatic access to Bootstrap and Bootswatch CSS files",
   "version": "0.1.0",
   "main": "bootstrapper.js"
 }
