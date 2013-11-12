@@ -3,7 +3,7 @@ Bootstrapper
 
 I'm *sure* something like this already exists, but I couln't find it quickly so I made (another?) one myself.
 
-This is basically an NPM package with the express purpose of providing programmatic access to Bootstrap and Bootswatch CSS files.
+This is basically an NPM package with the express purpose of providing programmatic access to [Bootstrap](http://getbootstrap.com/) and [Bootswatch](http://bootswatch.com/) CSS files.
 
 Usage
 -----
